@@ -1,0 +1,46 @@
+hr {
+    display: none;
+}
+
+h1 {
+    margin: 24px auto 16px auto;
+    max-width: 760px;
+}
+
+table {
+    font-size: 14px;
+    margin: 0px auto 0px auto;
+}
+
+table th,
+table td {
+    line-height: 24px;
+}
+
+body {
+    background-color: #fcfcfc;
+}
+
+body > span {
+    display: none;
+}
+
+body::after {
+    color: #4d4d4d;
+    content: "Powered by netius";
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 24px auto 32px auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 760px) {
+    h1 {
+        margin: 14px 0px 14px 0px;
+    }
+
+    table {
+        margin: 0px 0px 0px 0px;
+    }
+}
