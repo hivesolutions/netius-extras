@@ -1,4 +1,18 @@
-hr {
+body {
+    background-color: #fcfcfc;
+}
+
+body::after {
+    color: #4d4d4d;
+    content: "Powered by netius";
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 24px auto 32px auto;
+    text-align: center;
+}
+
+body > span {
     display: none;
 }
 
@@ -14,25 +28,11 @@ table {
 
 table th,
 table td {
-    line-height: 24px;
+    line-height: 26px;
 }
 
-body {
-    background-color: #fcfcfc;
-}
-
-body > span {
+hr {
     display: none;
-}
-
-body::after {
-    color: #4d4d4d;
-    content: "Powered by netius";
-    display: block;
-    font-size: 13px;
-    font-weight: 500;
-    margin: 24px auto 32px auto;
-    text-align: center;
 }
 
 @media screen and (max-width: 760px) {
